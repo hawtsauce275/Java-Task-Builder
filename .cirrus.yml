@@ -1,0 +1,29 @@
+env:
+    MANIFEST: https://github.com/DerpFest-AOSP/manifest.git -b 13
+    DEVICE: RMP6768
+    OEM: realme
+    LOCAL_MANIFEST: https://github.com/RT1648/local_manifests.git   
+    TARGET: derp
+    EXTRA_CMD: export SKIP_ABI_CHECKS=true
+    LUNCH_COMBO: derp_$DEVICE-userdebug
+    OUTPUT: D*.zip
+    CLO: 1:ci
+    CLO_1:
+    URI: #
+    ROM_U: 0
+
+task:
+  name: "build"
+  timeout_in: 120m
+  container:
+      image: apon77/aosp:cirrus
+      cpu: 8
+      memory: 32G
+  Storage-Checker_script:
+      - ./scripts/d0wnl0ad
+  Sync_script:
+      - ./scripts/syn0
+  Build_script:
+      - ./scripts/bu1ld
+  upload_script:
+      - ./scripts/upl0ad
