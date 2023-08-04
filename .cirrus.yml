@@ -7,8 +7,8 @@ env:
     EXTRA_CMD: export SKIP_ABI_CHECKS=true
     LUNCH_COMBO: derp_$DEVICE-userdebug
     OUTPUT: D*.zip
-    CLO: 1:ci
-    CLO_1:
+    CLO: RMP:ci
+    CLO_1: ENCRYPTED[040a635e3934768d41da32a6fc76605c94c526020722216468b08b9d41fc2396a1b048de240995a4da397e13cc76c86d]
     URI: #
     ROM_U: 0
 
