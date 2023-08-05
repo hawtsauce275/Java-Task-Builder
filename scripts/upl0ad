@@ -19,5 +19,5 @@ wget https://github.com/Sushrut1101/GoFile-Upload/raw/master/upload.sh
 chmod +x upload.sh
 ls
 ./upload.sh $OUTPUT
-./upload.sh boot.img
+./upload.sh recovery.img
 fi
