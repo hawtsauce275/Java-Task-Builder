@@ -4,6 +4,7 @@ mkdir -p ~/work
 cd ~/work
 repo init --depth=1 -u $MANIFEST
 git clone $LOCAL_MANIFEST .repo/local_manifests
+git clone https://gitlab.com/alibei/android_kernel_realme_oppo8786.git kernel/realme/oppo8786 
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle -j8
 }
 
