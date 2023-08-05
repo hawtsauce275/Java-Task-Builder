@@ -1,15 +1,15 @@
 env:
-    MANIFEST: https://github.com/PixelExperience/manifest -b thirteen
+    MANIFEST: https://github.com/DerpFest-AOSP/manifest.git -b 13
     DEVICE: RMP6768
     OEM: realme
     LOCAL_MANIFEST: https://github.com/RT1648/local_manifests.git   
-    TARGET: bacon
+    TARGET: derp
     EXTRA_CMD: export SKIP_ABI_CHECKS=true
-    LUNCH_COMBO: aosp_$DEVICE-userdebug
-    OUTPUT: P*.zip
+    LUNCH_COMBO: derp_$DEVICE-userdebug
+    OUTPUT: D*.zip
     CLO: RMP:ci
     CLO_1: ENCRYPTED[040a635e3934768d41da32a6fc76605c94c526020722216468b08b9d41fc2396a1b048de240995a4da397e13cc76c86d]
-    URI: #
+    URI: https://sourceforge.net/projects/fleur/files/ccache/Derpfest/ccache.tar.gz/download
     ROM_U: 1
 
 task:
