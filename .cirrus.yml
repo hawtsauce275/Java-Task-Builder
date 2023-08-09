@@ -2,7 +2,7 @@ env:
     MANIFEST: https://github.com/Evolution-X/manifest -b tiramisu --depth 1
     DEVICE: RMP6768
     OEM: realme
-    LOCAL_MANIFEST: https://github.com/RT1648/local_manifests.git   
+    LOCAL_MANIFEST: https://github.com/RT1648/local_manifests.git --depth 1
     TARGET: evolution 
     EXTRA_CMD: export SKIP_ABI_CHECKS=true
     LUNCH_COMBO: evolution_$DEVICE-userdebug
