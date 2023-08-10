@@ -8,7 +8,7 @@ env:
     LUNCH_COMBO: evolution_$DEVICE-userdebug
     OUTPUT: e*.zip
     CLO: RMP:ci
-    CLO_1: ENCRYPTED[fc0bf3d6c7078d01e5a73144e8dd2e5db66b776178a41ce207593c61657b61116de9412b4e0486adfd85decee684f1a7]
+    CLO_1: ENCRYPTED[c55479a0b7ce5416a4d265ad548591ad7523c47907cf36e548017826a86ab1d89e4cc095a95855dec3b8b53d899a7697]
     URI: # https://sourceforge.net/projects/fleur/files/ccache/EvoX/ccache.tar.gz/download
     ROM_U: 1
 
