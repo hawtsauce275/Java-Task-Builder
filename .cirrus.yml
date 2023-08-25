@@ -1,15 +1,15 @@
 env:
-    MANIFEST: https://github.com/DerpFest-AOSP/manifest.git -b 13 --depth 1
+    MANIFEST: https://github.com/Evolution-X/manifest -b tiramisu --depth 1
     DEVICE: RMP6768
     OEM: realme
     LOCAL_MANIFEST: https://github.com/RT1648/local_manifests.git --depth 1
-    TARGET: derp
+    TARGET: evolution
     EXTRA_CMD: export SKIP_ABI_CHECKS=true
-    LUNCH_COMBO: derp_$DEVICE-userdebug
-    OUTPUT: D*.zip
+    LUNCH_COMBO: evolution_$DEVICE-userdebug
+    OUTPUT: e*.zip
     CLO: ci:ci
     CLO_1: ENCRYPTED[c55479a0b7ce5416a4d265ad548591ad7523c47907cf36e548017826a86ab1d89e4cc095a95855dec3b8b53d899a7697]
-    URI: https://sourceforge.net/projects/fleur/files/ccache/Derpfest/ccache.tar.gz/download
+    URI: #https://sourceforge.net/projects/fleur/files/ccache/EvoX/ccache.tar.gz/download
     ROM_U: 1
 
 task:
