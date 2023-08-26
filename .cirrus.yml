@@ -9,7 +9,7 @@ env:
     OUTPUT: e*.zip
     CLO: ci:ci
     CLO_1: ENCRYPTED[05ecaba04246bae3b537435ff9b911ad78cf333d75763cd86ed7eb3255658c6d5905ab26467105b4564c4fcbde5d013f]
-    URI: #https://sourceforge.net/projects/fleur/files/ccache/EvoX/ccache.tar.gz/download
+    URI: https://sourceforge.net/projects/fleur/files/ccache/EvoX/ccache.tar.gz/download
     ROM_U: 1
 
 task:
