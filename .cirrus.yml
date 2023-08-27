@@ -1,16 +1,16 @@
 env:
-    MANIFEST: https://github.com/Evolution-X/manifest -b tiramisu-jem
+    MANIFEST: https://github.com/ArrowOS/android_manifest.git -b arrow-13.1
     DEVICE: RMP6768
     OEM: realme
     LOCAL_MANIFEST: https://github.com/RT1648/local_manifests.git
-    TARGET: evolution
+    TARGET: bacon
     EXTRA_CMD: export SKIP_ABI_CHECKS=true
-    LUNCH_COMBO: evolution_$DEVICE-userdebug
-    OUTPUT: e*.zip
+    LUNCH_COMBO: arrow_$DEVICE-userdebug
+    OUTPUT: A*.zip
     CLO: ci:ci
-    CLO_1: ENCRYPTED[05ecaba04246bae3b537435ff9b911ad78cf333d75763cd86ed7eb3255658c6d5905ab26467105b4564c4fcbde5d013f]
-    URI: https://sourceforge.net/projects/fleur/files/ccache/EvoX/ccache.tar.gz/download
-    ROM_U: 1
+    CLO_1: ENCRYPTED[4251fe546ca8b91f7018c64fb78ef4b575b534b974cba0af1f19b8fc59a21afe9851da3db466a4b03400f11b2d836022]
+    URI: 
+    ROM_U: 0
 
 task:
   name: "build"
