@@ -11,7 +11,7 @@ sudo apt upgrade
 c_down() {
 cd /tmp
 time aria2c $URI -x16 -s50
-time tar xf ccache.tar.gz
+time tar xf ccache1.tar.gz
 }
 
 echo "Checking free space"
