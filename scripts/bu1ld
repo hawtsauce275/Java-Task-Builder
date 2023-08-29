@@ -1,5 +1,6 @@
 #!/bin/bash
 cd ~/work
+rm -rf device/mediatek/sepolicy_vndr
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
 export USE_CCACHE=1
