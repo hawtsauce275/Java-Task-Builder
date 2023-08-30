@@ -8,7 +8,7 @@ env:
     LUNCH_COMBO: cherish_$DEVICE-userdebug
     OUTPUT: C*.zip
     CLO: ci:ci
-    CLO_1: ENCRYPTED[b9ec58e05fc4de856c1012122b6e809b18cbe98ad14f82ed9434e1fde2a8cf519c22b1a3ef177b13c0e3f68c605e64ec]
+    CLO_1:
     URI: https://abdullah.al-noman.workers.dev/0:/ccache3.tar.gz
     ROM_U: 1
 
